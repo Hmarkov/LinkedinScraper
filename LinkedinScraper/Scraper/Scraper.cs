@@ -17,11 +17,6 @@ namespace LinkedinScraper.Scraper
             _linkedinUrl = url;
         }
 
-        public async Task<List<Job>> Scrape() {
-            var jobs = new List<Job>();
-            string pageContent = null;
-        }
-
         async Task<string> FetchPageContentAsync()
         {
             var options = new ChromeOptions()
